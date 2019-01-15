@@ -11,7 +11,7 @@ conn.execute('''CREATE TABLE product
 
 conn.execute('''CREATE TABLE cart
                 (cartId INTEGER PRIMARY KEY,
-                cartValue INTEGER)''')
+                cartValue REAL)''')
 
 conn.execute('''CREATE TABLE cartItem
                 (cartItemId INTEGER PRIMARY KEY,

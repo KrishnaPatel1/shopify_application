@@ -4,12 +4,13 @@
 Hey there! Looks like you've found my awesome application for Shopify!
 
 So setting up the project is fairly simple:
-* Have python installed
-* Have flask installed
-* Run dbqueries.py (python dbqueries.py in the command line)
-* Set app.py as the flask app (export FLASK_APP=app.py)
-* Run the app! (flask run)
-* Go on your browser, go to `http://127.0.0.1:5000` (default) and check out my store! ;)
+* Have python installed (version 3.X)
+* Run `pip install -r requirements.txt`
+* Set shop.py as the flask app (`export FLASK_APP=shop.py`)
+* Run the app! (`flask run`)
+* Get on your browser, go to `http://127.0.0.1:5000` (default) and check out my store! ;)
+
+I've also set up a really basic unit test and integrated it with Travis CI to execute at every commit!
 
 ### Available endpoints:
             

@@ -9,7 +9,7 @@ So setting up the project is fairly simple:
 * Run dbqueries.py (python dbqueries.py in the command line)
 * Set app.py as the flask app (export FLASK_APP=app.py)
 * Run the app! (flask run)
-* Go on your browser and check out my store! ;)
+* Go on your browser, go to `http://127.0.0.1:5000` (default) and check out my store! ;)
 
 ### Available endpoints:
             
